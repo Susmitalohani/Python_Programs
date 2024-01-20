@@ -31,5 +31,11 @@ class cel_to_fahre:
 temp1=cel_to_fahre(input1)
 print(f"{input1} degree in fahrenheit is {temp1.Celcius}")
 
-
-
+# --------------------------------------
+# from a list of number ,move all zero from the list: input=[1,2,0,4,5,0]   output=[1,2,4,5]
+list1=[1,2,0,4,5,0]
+for  i in list1:
+     if i == 0:
+          list1.pop(0)
+          print(list1)
+     

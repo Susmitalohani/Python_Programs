@@ -1,21 +1,9 @@
-def repeat(list1):
-    result = ''
-    dict1=dict()
-    for i in list1:
-         count =0
-         for j in list1:
-             if i == j :
-                 count +=1
-                 dict1.update({i:count})
-    c = max(dict1.values())
-    for keys, values in dict1.items():
-        if c == values:
-            result = keys
-            break
-
-    return result
-print(repeat(['Ram','Krishna','Ram','laxman']))
-print(repeat(['Ram','Krishna','Krishna','laxman']))
-print(repeat(['Krishna','Ram','Krishna','Ram']))
-print(repeat(['Krishna','Ram','Krishna','Ram']))
-print(repeat(['Ram','Ram','laxman','Ram','laxman']))
+start=int(input("Enter the starting interval to find prime numbers:"))
+stop=int(input("Enter the starting interval to find prime numbers:"))
+for num in range(start,stop):
+    if num >1:
+        for i in range(2,num):
+            if num%i == 0:
+                break
+        else:
+            print(num)
