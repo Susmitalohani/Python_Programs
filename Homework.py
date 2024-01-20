@@ -38,4 +38,16 @@ for  i in list1:
      if i == 0:
           list1.pop(0)
           print(list1)
+
+# --------------------------------
+# write a program to display all prime number within an interval
+start=int(input("Enter the starting interval to find prime numbers:"))
+stop=int(input("Enter the starting interval to find prime numbers:"))
+for num in range(start,stop):
+    if num >1:
+        for i in range(2,num):
+            if num%i == 0:
+                break
+        else:
+            print(num)
      
