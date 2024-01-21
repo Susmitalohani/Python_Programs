@@ -26,25 +26,25 @@
 
 # ----------------------
 # example:
-# class Student():
-#    def _init_(self,name):
-#     self.name=name
-#    def show(self,age):
-#       print(f"Hello World!!! my name is {self.name} and age is {age}")
-# a=Student("Susmita")
-# a.show(24)
+class Student():
+   def _init_(self,name):
+    self.name=name
+   def show(self,age):
+      print(f"Hello World!!! my name is {self.name} and age is {age}")
+a=Student("Susmita")
+a.show(24)
 
 # -------------------
-# class Student:
-#     def __init__(self,name,age):
-#         self.name=name
-#         self.age=age
-#     def show(self):
-#         print(f"My name is {self.name}, my age is {self.age}")
-# a=Student("ram",27)
-# a.show()
-# b=Student("Susmita",24)
-# b.show()
+class Student:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+    def show(self):
+        print(f"My name is {self.name}, my age is {self.age}")
+a=Student("ram",27)
+a.show()
+b=Student("Susmita",24)
+b.show()
 
 
 # -----------------------Real_world_example
