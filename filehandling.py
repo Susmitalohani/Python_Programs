@@ -62,9 +62,9 @@ close()
 
 # ---------with statement
 # with le chai close lekhna xutayeni close garxa affai 
-with open("susmita.txt","w")as f:
-    f.write("Nepal is landlocked country")
-print(f.closed)
+# with open("susmita.txt","w")as f:
+#     f.write("Nepal is landlocked country")
+# print(f.closed)
 
 # tell()
 # seek()

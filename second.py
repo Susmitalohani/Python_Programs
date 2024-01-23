@@ -55,6 +55,13 @@ def reve():
     print(reverse_string)
 reve()
 
+# ----------------------------using for loop reversing name 
+name="Susmita Lohani"
+rev_name=" "
+for char in range(len(name)-1,-1,-1):
+    rev_name +=name[char]
+print(rev_name)
+
 #----------------Write a Python program to check if a given string is a pangram (contains all letters of the alphabet)'
 string=input("Enter the string you want to check: ")
 print(string.isalpha())
@@ -74,7 +81,5 @@ for i in range(2,20):
     if i % 2 == 0:
         print(i)
 
-
-        
 
     
